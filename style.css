@@ -1,0 +1,65 @@
+/* #ff591d */
+/* ffb901 */
+
+body{
+    min-height: 100vh;
+    direction: rtl;
+
+    background-image: url(./images/banner7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover; 
+    background-position:bottom;      
+}
+#menu{
+    height: 50px;
+    background-color: rgb(126, 126, 126); 
+}
+#header{
+    height: 70vh;
+    color: #cecece;
+}
+#classes{
+    height: auto;
+    clip-path: polygon(0 100px ,100% 0, 100% 100% ,0 100% );
+}
+#info{
+}
+#coaches{
+   
+}
+#offer{
+    background-color: #1a1a1abf;
+}
+#gallery{
+    background-color: #ebebeb;
+    background-image: url(./images/pattern4.png);
+    background-size: 230px;
+}
+#services{
+}
+#footer{
+    background-color: black;
+    height: 80px;
+}
+
+/* ------------------------------------------------------- */
+
+.parts{
+    height: auto;
+    min-height: 300px;
+}
+.light_part{
+    background-color: #ebebeb;
+    /* ارث بری */
+    color: #cecece;
+}
+.dark_part{
+    background-color: #1a1a1a;
+}
+.dark_part_title{
+    color:#f6f6f6;
+}
+.dark_part_desc{
+    color:#4d4d4d;
+}
