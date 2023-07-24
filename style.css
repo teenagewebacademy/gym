@@ -4,6 +4,7 @@
 body{
     min-height: 100vh;
     direction: rtl;
+    margin: 0;
 
     background-image: url(./images/banner7.jpg);
     background-repeat: no-repeat;
@@ -12,9 +13,10 @@ body{
     background-position:bottom;      
 }
 #menu{
-    height: 50px;
+    /* height: 50px; */
     background-color: rgb(126, 126, 126); 
 }
+
 #header{
     height: 70vh;
     color: #cecece;
@@ -31,6 +33,12 @@ body{
 #offer{
     background-color: #1a1a1abf;
 }
+.offer_btn{
+    width: 64px;
+    background-color: #ff591d;
+    margin: 40px auto 0;
+    padding: 10px 20px;
+}
 #gallery{
     background-color: #ebebeb;
     background-image: url(./images/pattern4.png);
@@ -40,9 +48,12 @@ body{
 }
 #footer{
     background-color: black;
-    height: 80px;
+    /* height: 80px; */
 }
-
+.footer_icon{
+    color:#f6f6f6;
+    margin: 0 8px;
+}
 /* ------------------------------------------------------- */
 
 .parts{
@@ -62,4 +73,16 @@ body{
 }
 .dark_part_desc{
     color:#4d4d4d;
+}
+
+.align_title{
+    text-align: center;
+}
+.container{
+    margin: 0 10%;
+    padding: 56px 0 56px;
+}
+.mini_container{
+    margin: 0 10%;
+    padding: 16px 0;
 }

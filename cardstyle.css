@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    direction: rtl;
+}
+.coach_cards{
+    width: 250px;
+    height: auto;
+    background-color: white;
+}
+.img_coach_cards{
+    width: 100%;
+    height: 200px;
+}
+.desc_coach_cards{
+    padding: 10px 8px 24px;
+    text-align: center;
+}
+.btn_coach_cards{
+    width: 50%;
+    background-color: #ff591d;
+    margin: 10px auto 16px;
+    padding: 10px 20px;
+    color: white;
+}
+.gray_titleCard{
+    color: #d0d0d0;
+}
+/* =============================== */
+.service_cards{
+    width: 25%;
+    text-align: center;
+    color: aliceblue;
+    padding: 50px 0;
+}
+/* ============================== */
+.classes_cards{
+    width: 450px;
+    background-color: red;
+}
+.img__classes_cards{
+    width: 30%;
+
+}
+.desc_classes_cards{
+    width: 66%;
+    padding: 2%;
+    background-color: white;
+}
+.title_classes_cards{
+    margin: 3px 0 0;
+}
