@@ -35,7 +35,8 @@ body{
 /* ============================== */
 .classes_cards{
     width: 450px;
-    background-color: red;
+    display: flex;
+    flex-direction: row;
 }
 .img__classes_cards{
     width: 30%;
